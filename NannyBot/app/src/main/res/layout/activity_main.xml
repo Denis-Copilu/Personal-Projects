@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    app:backgroundTint="@color/colorPrimary"
+    >
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="6"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:paddingVertical="50dp"
+        android:shadowColor="@color/colorPrimary"
+        android:text="Pagina de povești"
+        app:backgroundTint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/buttonOpenStream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:paddingVertical="50dp"
+        android:text="Pagina de supraveghere"
+        app:backgroundTint="@color/colorPrimary" />
+<!--    <Button-->
+<!--        android:id="@+id/buttonAudioBluetooth"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Audio Bluetooth"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+<!--    <Button-->
+<!--        android:id="@+id/buttonRepeat"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Audio Repeat"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+    <Button
+        android:id="@+id/buttonControlRobot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:paddingVertical="50dp"
+        android:text="Pagina de control a robotului"
+        app:backgroundTint="@color/colorPrimary" />
+</TableLayout>
+
+
+</TableLayout>
